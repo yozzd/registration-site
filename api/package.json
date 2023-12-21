@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js --watch .",
+    "start": "node index.js",
+    "lint": "eslint --fix --ext \".js,.cjs\" ."
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.2",
+    "@fastify/jwt": "^7.2.4",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "mongoose": "^8.0.3",
+    "mongoose-bcrypt": "^1.11.0",
+    "nanoid": "^5.0.4",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "slug": "^8.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "nodemon": "^3.0.2"
+  }
+}
